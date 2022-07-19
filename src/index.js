@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './style.css';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import AppBar from 'material-ui/AppBar';
+import App from './components/App';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render((
+    <MuiThemeProvider >
+        <div>
+            <AppBar  title="RentoMojo Frontend Assignment" showMenuIconButton={false}  style={{backgroundColor: "#663399"}} />
+            <App />
+        </div>
+    </MuiThemeProvider>
+), document.getElementById('root'));
+registerServiceWorker();
