@@ -6,7 +6,7 @@
 
 # Output
 
-#1 Slide
+# 1st Slide
 ![Screenshot (94)](https://user-images.githubusercontent.com/87610812/179778150-a626aaec-f1dc-4dfb-869f-b8ab9f60d128.png)
 
 # 2nd slide
