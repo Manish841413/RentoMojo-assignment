@@ -9,7 +9,7 @@ import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render((
     <MuiThemeProvider >
         <div>
-            <AppBar  title="RentoMojo Frontend Assignment" showMenuIconButton={false}  style={{backgroundColor: "#663399"}} />
+            <AppBar  title="RentoMojo Frontend Hiring Task" showMenuIconButton={false}  style={{backgroundColor: "#663399"}} />
             <App />
         </div>
     </MuiThemeProvider>
